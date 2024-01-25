@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background: linear-gradient(160deg, #FFE53B, #FF2525);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.Title{
+    font-size: 30px;
+    font-family: "Press Start 2P";
+}
+.div-nav > ul{
+    display: flex;
+    list-style: none;
+}
+ul{
+    gap: 50px;
+}
+li{
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+}
+li:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.intro{
+    border-radius: 0 0 10px 10px;
+    justify-content: space-around;
+    display: flex;
+    background: linear-gradient(160deg, #FFE53B, #FF2525);
+
+}
+.text-intro{
+    font-family: 'Pattaya', sans-serif;
+    padding: 25px;
+    font-size: 35px;
+    margin: 50px 0 50px 0;
+    width: 570px;
+}
+.img-intro{
+    background-image: url(https://img.goodfon.ru/original/2560x1440/c/d1/princ-persii-kino.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 50px 0 50px 0;
+    background-color: aqua;
+    height: 300px;
+    width: 35%;
+}
+.img-film{
+    margin-bottom: 70px;
+    height: 320px;
+    width: 230px;
+}
+.img-film > img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.img-film > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.text-footer{
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    background: linear-gradient(160deg, #FFE53B, #FF2525);
+}
+.text-footer:hover{
+    color: black;
+}
+footer{
+    background: linear-gradient(160deg, #FFE53B, #FF2525);
+    border-radius: 10px 10px 0 0;
+    margin-top: 25px;
+    background-color: aqua;
+    height: 200px;
+}
+.info-footer{
+    font-size: 40px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 500px;
+}
+b{
+    color: black;
+}
+
+body{
+    min-width: 1140px;
+}
